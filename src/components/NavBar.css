@@ -1,0 +1,22 @@
+
+
+#topBarNavContainer {
+    background: darkgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+  }
+
+  a {
+      color: white
+  }

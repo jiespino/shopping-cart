@@ -1,0 +1,46 @@
+#cartItemsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#checkOutContainer {
+    background-color: #0099cc;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+    margin: 0px auto;
+}
+
+.cartItemContainer {
+    width: 250px;
+    text-align: center;
+}
+
+img{
+    border: 1px solid gray;
+    height: 300px;
+    width: 200px;
+}
+
+#checkOutText { 
+    padding: 5px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+
+}
+
+#totalPriceContainer {
+    background-color: #ffc200;
+    border-radius: 5px;
+    text-align: center;
+    width: 175px;
+    margin: 0px auto;
+    padding: 1px;
+}
+
+#totalText {
+    text-align: center;
+}
+

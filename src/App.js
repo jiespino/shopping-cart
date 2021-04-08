@@ -1,25 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
 
-function App() {
+} from "react-router-dom";
+import './App.css'
+import NavBar from './components/NavBar'
+import Shop from './components/Shop'
+import Home from './components/Home'
+import Cart from './components/Cart'
+import bookData from './components/Books'
+
+export default function App() {
+  const [cartItems, setCartItems] = useState([]);
+  const [cartItemsDict, setCartItemsDict] = useState({});
+  const addItem = (id, quantity) => {
+    if (cartItemsDict[id]) {
+      bookData[id]['quantity'] = bookData[id]['quantity'] + quantity;
+    } else {
+      bookData[id]['quantity'] = quantity;
+      setCartItems((prev) => [...prev, bookData[id]])
+      const book = {...cartItemsDict}
+      book[id] = bookData[id]
+      setCartItemsDict(book)
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div id="AppContainer">
+      <NavBar cartItems={cartItems.length}/>
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+          <Route exact path="/" render={() => (
+             <Home bookData={bookData}/>
+          )} />
+          <Route path="/shop" render={() => (
+             <Shop addItem={addItem} bookData={bookData}/>
+          )} />
+          <Route path="/cart" render={() => (
+             <Cart cart={cartItems} bookData={bookData}/>
+          )} />
+        </Switch>
+        </div>
+    </Router>
   );
 }
-
-export default App;

@@ -1,0 +1,37 @@
+
+#bookDisplayContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    text-align: center;
+    font-family: "Amazon Ember",Arial,sans-serif;
+
+}
+
+.bookContainer {
+    padding-top: 5px;
+    border: 1px solid gray;
+
+}
+
+img{
+    border: 1px solid gray;
+    height: 300px;
+    width: 200px;
+}
+
+#bookTitle {
+    font-size: 15px;
+}
+
+#priceWhole {
+    font-size: 21px;
+}
+
+#priceSymbol, #priceDecimal {
+    font-size: 12px;
+    top: -.5em;
+    position: relative;
+}
+
+
