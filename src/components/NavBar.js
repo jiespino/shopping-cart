@@ -8,13 +8,13 @@ function NavBar(props) {
       <div>
         <nav id='topBarNavContainer'>
           <ul className='nav-links'>
-            <Link to="/">
+            <Link to="/shopping-cart/">
                 <li>Home</li>
             </Link>
-            <Link to="/shop">
+            <Link to="/shopping-cart/shop">
                 <li>Shop</li>
             </Link>
-            <Link to="/cart">
+            <Link to="/shopping-cart/cart">
                 <li>({props.cartItems}) Cart</li>
             </Link>
           </ul>

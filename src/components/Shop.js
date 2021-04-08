@@ -33,43 +33,43 @@ function Shop(props) {
         <div id='shopContainer'>
         <nav id='shopNavBarContainer'>
             <ul id='shopnav-links'>
-                    <Link to="/shop">
+                    <Link to="/shopping-cart/shop">
                         <li>All Books</li>
                     </Link>
-                    <Link to="/shop/history">
+                    <Link to="/shopping-cart/shop/history">
                         <li>History</li>
                     </Link>
-                    <Link to="/shop/philosophy">
+                    <Link to="/shopping-cart/shop/philosophy">
                         <li>Philosophy</li>
                     </Link>
-                    <Link to="/shop/dystopian">
+                    <Link to="/shopping-cart/shop/dystopian">
                         <li>Dystopian</li>
                     </Link>
-                    <Link to="/shop/trueCrime">
+                    <Link to="/shopping-cart/shop/trueCrime">
                         <li>True Crime</li>
                     </Link>
-                    <Link to="/shop/novel">
+                    <Link to="/shopping-cart/shop/novel">
                         <li>Novel</li>
                     </Link>
             </ul>
         </nav>
         <Switch>
-            <Route exact path="/shop">
+            <Route exact path="/shopping-cart/shop">
                 <BookDisplay addItem={props.addItem} bookData={props.bookData}/>
             </Route>
-            <Route exact path="/shop/history">
+            <Route exact path="/shopping-cart/shop/history">
                 <BookDisplay addItem={props.addItem} bookData={historyBookData}/>
             </Route>
-            <Route exact path="/shop/philosophy">
+            <Route exact path="/shopping-cart/shop/philosophy">
                 <BookDisplay addItem={props.addItem} bookData={philosophyBookData}/>
             </Route>
-            <Route exact path="/shop/dystopian">
+            <Route exact path="/shopping-cart/shop/dystopian">
                 <BookDisplay addItem={props.addItem} bookData={dystopianBookData}/>
             </Route>
-            <Route exact path="/shop/novel">
+            <Route exact path="/shopping-cart/shop/novel">
                 <BookDisplay addItem={props.addItem} bookData={novelBookData}/>
             </Route>
-            <Route exact path="/shop/trueCrime">
+            <Route exact path="/shopping-cart/shop/trueCrime">
                 <BookDisplay addItem={props.addItem} bookData={trueCrimeBookData}/>
             </Route>
         </Switch>
