@@ -34,13 +34,13 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route exact path="/" render={() => (
+          <Route exact path="/shopping-cart/" render={() => (
              <Home bookData={bookData}/>
           )} />
-          <Route path="/shop" render={() => (
+          <Route path="/shopping-cart/shop" render={() => (
              <Shop addItem={addItem} bookData={bookData}/>
           )} />
-          <Route path="/cart" render={() => (
+          <Route path="/shopping-cart/cart" render={() => (
              <Cart cart={cartItems} bookData={bookData}/>
           )} />
         </Switch>
