@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.f61416de.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.19547bba.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.19547bba.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.f89a1504.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.f89a1504.js.map",
+    "static/js/2.337e9bc3.chunk.js": "/shopping-cart/static/js/2.337e9bc3.chunk.js",
+    "static/js/2.337e9bc3.chunk.js.map": "/shopping-cart/static/js/2.337e9bc3.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "static/css/main.f61416de.chunk.css.map": "/shopping-cart/static/css/main.f61416de.chunk.css.map",
+    "static/js/2.337e9bc3.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.337e9bc3.chunk.js.LICENSE.txt",
+    "static/media/1984.84bcc7fa.jpg": "/shopping-cart/static/media/1984.84bcc7fa.jpg",
+    "static/media/AllQuietOnTheWesternFront.809c5503.jpg": "/shopping-cart/static/media/AllQuietOnTheWesternFront.809c5503.jpg",
+    "static/media/BraveNewWorld.318c42ea.jpg": "/shopping-cart/static/media/BraveNewWorld.318c42ea.jpg",
+    "static/media/EastOfEden.6358533a.jpg": "/shopping-cart/static/media/EastOfEden.6358533a.jpg",
+    "static/media/Fahrenheit451.1c2cb146.jpg": "/shopping-cart/static/media/Fahrenheit451.1c2cb146.jpg",
+    "static/media/FlowersForAlgernon.d22a4f9a.jpg": "/shopping-cart/static/media/FlowersForAlgernon.d22a4f9a.jpg",
+    "static/media/HistOfWesternPhil.479c373d.jpg": "/shopping-cart/static/media/HistOfWesternPhil.479c373d.jpg",
+    "static/media/InColdBlood.d14ce537.png": "/shopping-cart/static/media/InColdBlood.d14ce537.png",
+    "static/media/TheGoodEarth.ca5cc7af.png": "/shopping-cart/static/media/TheGoodEarth.ca5cc7af.png",
+    "static/media/TheGrapesOfWrath.d728efbc.png": "/shopping-cart/static/media/TheGrapesOfWrath.d728efbc.png",
+    "static/media/TheHolocaust.ed25c481.jpg": "/shopping-cart/static/media/TheHolocaust.ed25c481.jpg",
+    "static/media/TheHotHouse.b47884e3.jpg": "/shopping-cart/static/media/TheHotHouse.b47884e3.jpg",
+    "static/media/TheRepublic.8928a41e.jpg": "/shopping-cart/static/media/TheRepublic.8928a41e.jpg",
+    "static/media/TheRiseAndFall.767eeed3.jpg": "/shopping-cart/static/media/TheRiseAndFall.767eeed3.jpg",
+    "static/media/TheScarletLetter.5c4442f8.jpg": "/shopping-cart/static/media/TheScarletLetter.5c4442f8.jpg",
+    "static/media/WarAndPeace.511e06b2.jpg": "/shopping-cart/static/media/WarAndPeace.511e06b2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f89a1504.js",
+    "static/js/2.337e9bc3.chunk.js",
+    "static/css/main.f61416de.chunk.css",
+    "static/js/main.19547bba.chunk.js"
+  ]
+}
